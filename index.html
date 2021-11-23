@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/script.js"></script>
+  <title>Political-Meter</title>
+</head>
+<body>
+    <div class="container" style="padding-top:10px">
+    <h1 style="border-bottom:3px solid grey; width: 40%;margin: auto;text-align: center; ">THE POLITICAL METER</h1>
+    <div style=" text-align: center; padding-top: 10px;"><img src="stamp.gif" width="20%" ></div>
+    <p class="welcome">Welcome! It’s timely to stress that The Political Compass has been on the internet since 2001. The uniqueness of our take on politics is reflected in the gratifyingly enthusiastic reviews we’ve enjoyed in the national media of many countries from our earliest years — as well as from many teachers and academics who continue to use our work.</p>
+    <div id="click" >
+    <button type="button" class="btn" style=" font-size: x-large;"><span class="me">CLICK TO TAKE TEST</span>  <br>
+        Find out where you stand on The Political Compass
+    </button>
+</div>
+
+<div class="status">
+    <form class="form">
+
+    <label for="name" >Full name:</label>
+    <input type="text" class="form-control" placeholder="enter your full name "><br>
+
+    <label for="maritalStatus" >Marital Status</label>
+    <select id="maritalStatus"  class="form-control" >
+        <option value="select">select</option>
+      <option value="single">single</option>
+      <option value="Married">Married</option>
+    </select><br>
+
+    <label for="Age" >Age</label>
+    <select id="Age"  class="form-control">
+        <option value="select">select</option>
+      <option value="small">18-25</option>
+      <option value="medium">26-35</option>
+      <option value="large">36&above</option>
+    </select><br>
+
+    <label for="gender" >Gender</label>
+    <select id="gender"  class="form-control"  >
+        <option value="select">select</option>
+      <option value="female">Female</option>
+      <option value="male">Male</option>
+    </select><br>
+
+    <label for="q1" >If you had to choose, would you rather have…</label>
+    <select id="gender"  class="form-control"  >
+        <option value="select">select</option>
+      <option value="female">A smaller government providing fewer services</option>
+      <option value="male">A bigger government providing more services </option>
+    </select><br>
+
+    <label for="public" >Governments should penalise businesses that mislead the public.</label>
+    <select id="public"  class="form-control"  >
+        <option value="select">select</option>
+      <option value="1">True</option>
+      <option value="2">false</option>
+    </select><br>
+
+
+    <label for="citizen" > The Governments shouldn't ignore thier citizens</label>
+    <select id="citizen"  class="form-control" >
+        <option value="select">select</option>
+      <option value="1">True</option>
+      <option value="2">false</option>
+    </select><br>
+
+    
+    <label for="society" > A government is responsible for creating and enforcing the rules of a society</label>
+    <select id="society"  class="form-control">
+        <option value="select">select</option>
+      <option value="1">True</option>
+      <option value="2">false</option>
+    </select><br>
+
+    <label for="elected" > what will you do if you are elected</label>
+    <select id="elected"  class="form-control" >
+        <option value="0">select</option>
+      <option value="1">create and enforce the rules of a society, defense, foreign affairs, the economy, and public services</option>
+      <option value="2">take good care of my family</option>
+      <option value="3">empower my friends</option>
+      <option value="4">invest in foreign country</option>
+      <option value="5">tour round the world</option>
+    </select><br>
+    
+    <div style="margin: auto; text-align: center; "> <button type="submit" class="btn btn-danger" >Submit</button></div><br><br>
+
+   
+</form>
+</div>
+
+
+    <div class="result1">
+    <h1>you have a higher chance of been voted for based on the citizen opinion obtained from the recent survey</h1>
+    </div>
+    <div class="result2">
+        <h1>you have a average chance of been voted for based on the citizen opinion obtained from the recent survey</h1>
+        </div>
+        <div class="result3">
+            <h1>you have a lower chance of been voted for based on the citizen opinion obtained from the recent survey</h1>
+            </div>
+  
+
+
+</div>
+</body>
+</html>
